@@ -1,0 +1,38 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>D:\cloud\.ATMEL STUDIO\SoundCloun\SoundCloun\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>D:\cloud\.ATMEL STUDIO\SoundCloun\SoundCloun\SoundCloun.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\m328Pdef.inc</FILE>
+  <FILE>D:\cloud\.ATMEL STUDIO\SoundCloun\SoundCloun\macro.inc</FILE>
+  <FILE>D:\cloud\.ATMEL STUDIO\SoundCloun\SoundCloun\interrupts.inc</FILE>
+  <FILE>D:\cloud\.ATMEL STUDIO\SoundCloun\SoundCloun\coreinit.inc</FILE>
+  <FILE>D:\cloud\.ATMEL STUDIO\SoundCloun\SoundCloun\sound.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>D:\cloud\.ATMEL STUDIO\SoundCloun\SoundCloun\Debug/SoundCloun.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>SoundCloun.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>SoundCloun.map</FILE>
+  <FILE>SoundCloun.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>D:\cloud\.ATMEL STUDIO\SoundCloun\SoundCloun\interrupts.inc</FILE><LINE>136</LINE></RESET>
+  <I_TIMER0_COMPA><FILE>D:\cloud\.ATMEL STUDIO\SoundCloun\SoundCloun\interrupts.inc</FILE><LINE>78</LINE></I_TIMER0_COMPA>
+  <soundend><FILE>D:\cloud\.ATMEL STUDIO\SoundCloun\SoundCloun\sound.inc</FILE><LINE>2002</LINE></soundend>
+  <NOTRESET><FILE>D:\cloud\.ATMEL STUDIO\SoundCloun\SoundCloun\interrupts.inc</FILE><LINE>84</LINE></NOTRESET>
+  <TURNOFF><FILE>D:\cloud\.ATMEL STUDIO\SoundCloun\SoundCloun\interrupts.inc</FILE><LINE>106</LINE></TURNOFF>
+  <RAM_Flush><FILE>D:\cloud\.ATMEL STUDIO\SoundCloun\SoundCloun\coreinit.inc</FILE><LINE>2</LINE></RAM_Flush>
+  <Flush><FILE>D:\cloud\.ATMEL STUDIO\SoundCloun\SoundCloun\coreinit.inc</FILE><LINE>6</LINE></Flush>
+  <sound><FILE>D:\cloud\.ATMEL STUDIO\SoundCloun\SoundCloun\sound.inc</FILE><LINE>1</LINE></sound>
+  <main><FILE>D:\cloud\.ATMEL STUDIO\SoundCloun\SoundCloun\SoundCloun.asm</FILE><LINE>34</LINE></main>
+ </LABELS>
+</ASSEMBLER_INFO>
